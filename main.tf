@@ -12,7 +12,7 @@ provider "azurerm" {
   features {}
 }
 
-# 2. Resource Group Baru (Berbeda dari manual)
+# 2. Resource Group Baru
 resource "azurerm_resource_group" "rg" {
   name     = "jarvis-rg-tf"
   location = "Indonesia Central"
